@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meu Portfólio</title>
+	<style>
+		/* Estilos para dispositivos móveis */
+		@media only screen and (max-width: 600px) {
+			body {
+				font-size: 16px;
+			}
+			section {
+				padding: 10px;
+			}
+			h1 {
+				font-size: 24px;
+			}
+			h2 {
+				font-size: 20px;
+			}
+		}
+
+		/* Estilos para a imagem de fundo */
+		body {
+			background-image: url(background.jpeg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#inicio">Início</a></li>
+				<li><a href="#sobre-mim">Sobre Mim</a></li>
+				<li><a href="#trabalhos">Trabalhos</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="inicio">
+		<h1>Bem-vindo ao meu Portfólio</h1>
+		<p>Aqui você encontra informações sobre mim e meus trabalhos.</p>
+	</section>
+	<section id="sobre-mim">
+		<h2>Sobre Mim</h2>
+		<p>Natural do Rio Grande do Sul e atualmente residindo em Barra Velha, Santa Catarina. Atualmente no nono período de Engenharia Mecânica na Universidade do Vale do Itajaí e artista 3D</p>
+	</section>
+	<section id="trabalhos">
+	<h2>Meus Trabalhos</h2>
+	<ul>
+		<li>
+			<h3>Projeto 1</h3>
+			<p>Descrição do projeto 1.</p>
+			<img src="baja.jpg" alt="Imagem do Projeto 1">
+		</li>
+		<li>
+			<h3>Projeto 2</h3>
+			<p>Descrição do projeto 2.</p>
+			<img src="caminho/para/a/imagem2.jpg" alt="Imagem do Projeto 2">
+		</li>
+		<li>
+			<h3>Projeto 3</h3>
+			<p>Descrição do projeto 3.</p>
+			<img src="caminho/para/a/imagem3.jpg" alt="Imagem do Projeto 3">
+		</li>
+	</ul>
+</section>
+
+	</section>
+	<section id="contato">
+		<h2>Contato</h2>
+		<form>
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome" name="nome"><br>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email"><br>
+			<label for="mensagem">Mensagem:</label>
+			<textarea id="mensagem" name="mensagem"></textarea><br>
+			<input type="submit" value="Enviar">
+		</form>
+	</section>
+</body>
+</html>
