@@ -1,94 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Meu Portfólio</title>
-	<style>
-		/* Estilos para dispositivos móveis */
-		@media only screen and (max-width: 600px) {
-			body {
-				font-size: 16px;
-			}
-			section {
-				padding: 10px;
-			}
-			h1 {
-				font-size: 24px;
-			}
-			h2 {
-				font-size: 20px;
-			}
-		}
-
-		/* Estilos para a imagem de fundo */
-		body {
-			background-image: url(background.jpeg);
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
-	</style>
-</head>
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#inicio">Início</a></li>
-				<li><a href="#sobre-mim">Sobre Mim</a></li>
-				<li><a href="#trabalhos">Trabalhos</a></li>
-				<li><a href="#contato">Contato</a></li>
-			</ul>
-		</nav>
-	</header>
-	</section>
-	<section id="Links">
-		<h2>Links</h2>
-	<a href="DH.html">"#Calculadora DH"</a>
-		</ul>
-</section>
-	<section id="inicio">
-		<h1>Bem-vindo ao meu Portfólio</h1>
-		<p>Aqui você encontra informações sobre mim e meus trabalhos.</p>
-	</section>
-	<section id="sobre-mim">
-		<h2>Sobre Mim</h2>
-		<p>Natural do Rio Grande do Sul e atualmente residindo em Barra Velha, Santa Catarina. Atualmente no nono período de Engenharia Mecânica na Universidade do Vale do Itajaí e artista 3D</p>
-	</section>
-	<section id="trabalhos">
-	<h2>Meus Trabalhos</h2>
-	<ul>
-		<li>
-			<h3>Projeto 1</h3>
-			<p>Descrição do projeto 1.</p>
-			<img src="baja.jpg" alt="Imagem do Projeto 1">
-		</li>
-		<li>
-			<h3>Projeto 2</h3>
-			<p>Descrição do projeto 2.</p>
-			<img src="caminho/para/a/imagem2.jpg" alt="Imagem do Projeto 2">
-		</li>
-		<li>
-			<h3>Projeto 3</h3>
-			<p>Descrição do projeto 3.</p>
-			<img src="caminho/para/a/imagem3.jpg" alt="Imagem do Projeto 3">
-		</li>
-	</ul>
-</section>
-
-	</section>
-	<section id="contato">
-		<h2>Contato</h2>
-		<form>
-			<label for="nome">Nome:</label>
-			<input type="text" id="nome" name="nome"><br>
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email"><br>
-			<label for="mensagem">Mensagem:</label>
-			<textarea id="mensagem" name="mensagem"></textarea><br>
-			<input type="submit" value="Enviar">
-		</form>
-	</section>
-	
-	
-</body>
+  <head>
+    <title>Canto do Engenheiro</title>
+    <style>
+      body {
+        background-image: url("https://via.placeholder.com/1500x1000.png");
+        background-size: cover;
+        font-family: Arial, sans-serif;
+      }
+      #header {
+        background-color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      #header h1 {
+        margin: 0;
+      }
+      #buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .button {
+        background: linear-gradient(to bottom, rgba(255,55,255,0.5) 25%,rgba(155,55,155,0.5) 50%,rgba(255,255,255,0) 75%,rgba(155,25,255,0) 100%);
+        border: none;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 20px;
+        margin: 0 10px;
+        transition: all 0.5s ease;
+      }
+      .button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+      #content {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #footer {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Canto do Engenheiro</h1>
+      <div id="buttons">
+        <a href="#" class="button">Home</a>
+        <a href="DH.html">
+       <button class="botao">DH</button>
+       </a>
+        <a href="#" class="button">Sobre nós</a>
+        <a href="#" class="button">Contato</a>
+      </div>
+    </div>
+    <div id="content">
+      <h2>Seja bem-vindo!</h2>
+      <p>A vida do engenheiro é virada de problemas e prazos apertados, então por que
+ perder tempo com cálculos manuais se você pode usar esse site?</p>
+    </div>
+    <div id="footer">
+      &copy; 2023 Meu site. Todos os direitos reservados.
+    </div>
+  </body>
 </html>
